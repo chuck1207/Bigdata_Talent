@@ -102,3 +102,39 @@
 4. Data Scientist와 Citizen Data Scientist 
   내용 생략 
 
+5. 빅데이터 분석 방법론
+  1) 방법론
+    - 개개인의 역량과 경험에 의존하지 않고 누가 수행하던 "일정수준의 질과 양"이 보장될 수 있는 체계(시스템)를 의미
+    - 방법론이 없이 성공할 수 있으나 일회성일 경우가 대부분이며 성공요인에 대해 알 수 없다
+    - 절차와 방법, 도구와 기법, 산출물로 구성되어 있음
+    
+  2) 방법론은 어떤 과정을 거칠까?
+    - 4단계의 순환 사이클을 거침
+    - 공유화 -> 문서화 -> 지식화 -> 내면화의 선순환 과정을 거친다. 
+  
+  3) 방법론의 모델
+    - 폭포수(waterfall) 모델
+      a) 복잡성이 낮고 사례가 많음
+      b) 그러나 단계별 접근방법으로 각 단계를 완벽히 완료해야 후에 문제가 안생김 
+      
+    - 나선형(spiral) 모델 
+      a) 요구사항 충족에는 장점이 큰 모델
+      b) 그러나 철저한 관리가 없다면 완성에 대한 부담이 마지막 단계에 몰리게됨
+      
+    - 프로토타입(prototype) 모델
+    
+  4) 데이터 분석을 위한 방법론
+    - KDD
+      Selection - Pre Processing - Transformation - Data mining - Interpretation/Evalutaion 의 과정으로 진행 
+      
+    - SEMMA (SAS에서 사용하는 방법론)
+      Sample - Exploration - Modification - Modeling - Assessment 
+      
+    - CRISP-DM (가장 많이 사용되는 방법론)
+      a) Business understanding - Data understanding - Data Preparation - Modeling - Evaluation - Deployment 
+      b) Business data와 도메인 지식에 대한 강조
+  
+    - 참조 모델 
+      planning - data preparing - data analyzing - system developing - deploying 
+      
+    - 
