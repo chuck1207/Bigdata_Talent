@@ -138,4 +138,64 @@
       planning - data preparing - data analyzing - system developing - deploying 
       
 6. 분석기획 및 데이터 수집 단계 
-  내용 
+  내용생략
+  
+7. 빅데이터 분석 단계 
+  
+  1) Descriptive analytics (기술적 분석)
+    - 데이터를 탐색하여 데이터에서 발생한 사건을 관찰하는 분석
+  2) Diagnostic analytics (진단 분석)
+    - 왜 이러한 사건이 발생하였는가? -> 원인분석
+    - 보통 데이터 분석의 진행 과정
+  3) Predictive analytics (예측 분석)
+    - 분석의 의미를 갖는 단계 
+    - 앞으로 어떤 일이 벌어질지에 대해 예측
+  4) Prescirptive 
+    - 해결 방안 도출
+  
+  다만, 3~4번을 안한다고 해서 Data analytics가 아닌 것은 아니다 (단지 도전일뿐)
+  1~2번만으로도 충분한 고객 니즈가 있다면 그것은 훌륭한 Data analytics
+  
+  5) 일반적인 데이터 분석의 과정 
+    - Prepare Dataset -> Text Analysis -> EDA -> Modeling -> Model Assess -> Model Deployment
+  
+  6) 데이터 분석에 사용되는 도구
+    - 대부분은 Excel을 사용하지만 R의 사용빈도가 35.3%로 꽤 높은 편이며 최근 Ptython의 약진이 돋보인다. 
+
+  7) 무료와 오픈소스의 차이 
+    - 무료는 자유롭게 활용할 수 있으나 오픈소스는 라이선스 정책에 따르는 것을 의미
+    - 이는 일정한 기준에 맞을때는 자신이 만든 것을 공개해야할 수 있다. 
+    
+  8) 시각화의 중요성
+    - 나폴레옹 사례
+    - 나이팅 게일의 사례 
+    
+  9) 시각화 방법
+    - 시간 시각화: 막대그래프, 누적 막대 그래프, 점 그래프
+    - 분포 시각화: 파이 차트, 원형 차트, 트리맵, 누적 연속 그래프
+    - 관계 시각화: 스케터 플롯(산점도), 버블 차트, 히스토그램
+    - 비교 시각화: 히트맵, 스타 차트, 평행 좌표계, 다차원 척도법
+    - 공간 시각화: 지도맵핑
+    
+  10) 정보 디자인 
+    - 데이터 시각화 -> 정보형 메세지 (빅데이터 시각화)
+    - 정보 시각화 -> 정보형 메세지 (빅데이터 시각화) 
+    - 인포그래픽 -> 설득형 메세지: 빅데이터 분석에서 사용하는 것을 지양한다. 
+  
+  11) Machine Learning (기계학습) 
+    - 컴퓨터가 경험적 데이터에 기반하여 그 행동을 진화시키는 알고리즘의 설계 및 개발을 다루는 과학 
+    - 머신러닝이 의미있게 다가오는 이유는
+    - 지도학습(supervised Learning): Label을 가지고 있는 데이터를 입력으로 받아 출력으로 사상하는 함수를 학습
+    - 비지도 학습(Unsupervised Learning): Label이 없는 데이터에서 패턴을 학습
+    - 강화학습(reinforcement learning): Reward와 Penalty를 부여함으로써 학습, 강화 이전의 동작 중 그 강화에 가장 관련이 있는 것을 결정하는 것이 핵심
+    - 반지도학습(Semi-supervised Learning): Label이 있는 작은 표본을 기초로 Label이 주어지지 않는 다수의 표본으로부터 학습
+    
+  12) Supervised Learning 
+    - 분류 알고리즘: SVM, K-NN, Naive Bayes, Decision Tree, Random Forest, Logistic Regression, Neural Network
+    - 회귀 알고리즘: Linear Regression, K-NN, SVM, Random Forest
+    - 다만 분류와 회귀 알고리즘을 나누는 것은 무의미하다 Feature에 따라 다르기 때문에 
+  
+  13) Unsupervised Learning 
+    - K-means, Clustering, PCA, Neural Network, 연관관계분석 등 
+  
+  
