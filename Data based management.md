@@ -17,7 +17,7 @@
 ##  
   
 ### 2. Why R Programming 
-#### 
+#### (내용 생략)
 
 
 ## Chapter 2 빅데이터 기반 경영
